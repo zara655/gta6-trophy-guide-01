@@ -1,12 +1,14 @@
 // Leonida Trophy Guide & Tracker — entry program (Node 22, standard library only).
 //
-// The guide itself is the static app/ folder (open app/index.html in a browser,
-// or run `node serve.ts`). This program hands the entry in: it copies app/ and
-// screenshots/ next to this file into the output directory and writes
-// dossier.json with the vendored make.fun library, which is what the judge reads.
+// The guide itself is the app/ folder: plain static files (index.html, style.css,
+// app.js, data/trophies.json) that a browser opens with no build step and no
+// network access. This program hands the entry in: it copies app/ and
+// screenshots/ from beside this file into the output directory and writes
+// dossier.json with the vendored make.fun library, so the dossier is byte for
+// byte what the scorer's own copy produces.
 //
-// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
-//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+// Run it:  mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+// Preview: node serve.ts  (then open http://localhost:8080)
 
 import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -23,13 +25,14 @@ if (existsSync(join(here, 'screenshots'))) {
   cpSync(join(here, 'screenshots'), join(out, 'screenshots'), { recursive: true });
 }
 
-// Caps mirror the scorer's gate: at most 4 screenshots of at most 256 KiB,
-// app/ at most 993 files and 48 MiB; text_max_bytes shapes the dossier text.
-const dossier = buildDossier(out, {
-  text_max_bytes: 163840,
-  screenshots: { max: 4, max_bytes: 262144 },
-  app_max_files: 993,
-  app_max_bytes: 50331648,
-});
-writeFileSync(join(out, 'dossier.json'), dossier);
-console.log(`dossier written to ${join(out, 'dossier.json')}`);
+writeFileSync(
+  join(out, 'dossier.json'),
+  buildDossier(out, {
+    text_max_bytes: 163840,
+    screenshots: { max: 4, max_bytes: 262144 },
+    app_max_files: 993,
+    app_max_bytes: 50331648,
+  }),
+);
+
+console.log('dossier written to ' + join(out, 'dossier.json'));

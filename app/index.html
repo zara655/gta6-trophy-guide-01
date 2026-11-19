@@ -1,36 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leonida Trophy Guide &amp; Tracker — GTA VI</title>
-<meta name="description" content="Offline GTA VI trophy guide and tracker: all 55 official trophies, a roadmap to the platinum, missable flags, filters and a spoiler mode.">
+<title>Leonida Trophy Guide &amp; Tracker — GTA 6</title>
+<meta name="description" content="An offline GTA 6 trophy guide and tracker: all 55 official trophies, a roadmap to the platinum, missable flags, spoiler mode and per-trophy guidance.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="hero">
   <div class="hero-inner">
-    <p class="kicker">Grand Theft Auto VI · PlayStation 5 · Leonida</p>
+    <p class="kicker">Grand Theft Auto VI · PlayStation 5</p>
     <h1>Leonida Trophy Guide <span class="amp">&amp;</span> Tracker</h1>
-    <p class="tagline">All 55 official trophies, a roadmap to the platinum, missables flagged — works fully offline, your ticks never leave this browser.</p>
-    <div class="overall">
-      <div class="overall-bar" role="progressbar" aria-label="Overall trophy progress" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" id="overall-bar">
-        <div class="overall-fill" id="overall-fill"></div>
+    <p class="tagline">All 55 official trophies, a phase-by-phase roadmap to the platinum, missables flagged before they can bite, and guidance for every trophy. Works fully offline; your progress never leaves this browser.</p>
+    <div class="progress-panel" aria-label="Overall progress">
+      <div class="progress-main">
+        <div class="progress-ring" id="progressRing" role="img" aria-label="Overall trophy progress">
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="progress-text">
+          <strong id="progressCount">0 / 55 trophies</strong>
+          <span id="progressHint">Tick trophies off as you earn them — progress is saved on this device.</span>
+        </div>
       </div>
-      <p class="overall-text"><strong id="overall-count">0 of 55</strong> earned <span id="overall-pct" class="muted">(0%)</span></p>
+      <div class="grade-bars" id="gradeBars"></div>
     </div>
-    <div class="grade-progress" id="grade-progress" aria-label="Progress by grade"></div>
   </div>
 </header>
 
 <main>
-  <section class="controls" aria-label="Tracker controls">
+  <section class="controls" aria-label="Filters and settings">
     <div class="control-row">
-      <label class="search">Search
-        <input id="search" type="search" placeholder="Name or description…" autocomplete="off">
+      <label class="search-box">
+        <span class="sr-only">Search trophies</span>
+        <input type="search" id="search" placeholder="Search trophies…" autocomplete="off">
       </label>
-      <label>Grade
-        <select id="f-grade">
+      <label>
+        <span class="sr-only">Filter by grade</span>
+        <select id="gradeFilter">
           <option value="all">All grades</option>
           <option value="platinum">Platinum</option>
           <option value="gold">Gold</option>
@@ -38,62 +45,66 @@
           <option value="bronze">Bronze</option>
         </select>
       </label>
-      <label>Kind
-        <select id="f-kind">
+      <label>
+        <span class="sr-only">Filter by kind</span>
+        <select id="kindFilter">
           <option value="all">All kinds</option>
           <option value="story">Story</option>
-          <option value="side activity">Side activity</option>
-          <option value="collectible">Collectible</option>
-          <option value="challenge">Challenge</option>
-          <option value="online">Online</option>
-          <option value="misc">Misc</option>
+          <option value="side">Stranger strands</option>
+          <option value="activity">Activities</option>
+          <option value="collectible">Collectibles</option>
+          <option value="challenge">Challenges &amp; crime</option>
+          <option value="misc">Moments</option>
+          <option value="completion">Completion</option>
+          <option value="platinum">Platinum</option>
         </select>
       </label>
-      <label>Status
-        <select id="f-status">
-          <option value="all">All</option>
-          <option value="earned">Earned</option>
-          <option value="missing">Missing</option>
+      <label>
+        <span class="sr-only">Filter by status</span>
+        <select id="statusFilter">
+          <option value="all">Earned + missing</option>
+          <option value="missing">Missing only</option>
+          <option value="earned">Earned only</option>
+          <option value="missable">Missable only</option>
         </select>
-      </label>
-      <label class="toggle" title="Hide story trophy names and descriptions until you earn them">
-        <input id="spoiler" type="checkbox"> Spoiler mode
       </label>
     </div>
     <div class="control-row">
-      <div class="view-switch" role="tablist" aria-label="View">
-        <button id="view-checklist" type="button" role="tab" aria-selected="true">Checklist</button>
-        <button id="view-roadmap" type="button" role="tab" aria-selected="false">Roadmap to platinum</button>
+      <div class="tabs" role="tablist" aria-label="View">
+        <button type="button" role="tab" id="tabChecklist" aria-selected="true">Checklist</button>
+        <button type="button" role="tab" id="tabRoadmap" aria-selected="false">Roadmap to platinum</button>
       </div>
-      <span class="spacer"></span>
-      <button id="export" type="button">Export progress</button>
-      <label class="import-btn">Import progress
-        <input id="import" type="file" accept="application/json,.json" hidden>
+      <label class="toggle">
+        <input type="checkbox" id="spoilerToggle">
+        <span>Spoiler-free mode <small>(hide story trophies until earned)</small></span>
       </label>
-      <button id="reset" type="button" class="danger">Reset</button>
+      <div class="data-buttons">
+        <button type="button" id="exportBtn">Export progress</button>
+        <button type="button" id="importBtn">Import</button>
+        <button type="button" id="resetBtn" class="danger">Reset</button>
+        <input type="file" id="importFile" accept="application/json,.json" hidden>
+      </div>
     </div>
-    <p class="hint" id="filter-hint" aria-live="polite"></p>
+    <p class="result-count" id="resultCount" aria-live="polite"></p>
   </section>
 
-  <section id="checklist" aria-label="Trophy checklist"></section>
-  <section id="roadmap" aria-label="Roadmap to the platinum" hidden></section>
+  <section id="checklistView" aria-label="Trophy checklist">
+    <div id="trophyList" class="trophy-list"></div>
+    <p id="emptyState" class="empty" hidden>No trophies match those filters. Loosen a filter or clear the search.</p>
+  </section>
 
-  <section class="about">
-    <h2>How to use this guide</h2>
-    <ul>
-      <li><strong>Tick trophies off</strong> as you earn them — ticks are saved in this browser (localStorage) and survive reloads. Export a backup before clearing site data.</li>
-      <li><strong>Spoiler mode</strong> hides story trophy names and descriptions until you earn them, so you can track progress without seeing what's ahead.</li>
-      <li><strong>Missable flags</strong> mark trophies tied to a story beat, a stranger strand, or your partner's availability — the note on each one says when it can be missed.</li>
-      <li><strong>The roadmap</strong> orders everything into eight phases, from the story chapters to clean-up and the platinum.</li>
-      <li>Names, descriptions and grades are the <strong>official 55-trophy list</strong> (PlayStation trophy data, as listed 2026-11-18). Guidance is written for this guide; specific counts are as recorded in the trophy data and cited on each trophy.</li>
-    </ul>
+  <section id="roadmapView" aria-label="Roadmap to the platinum" hidden>
+    <p class="roadmap-intro">Eight phases, in the order a clean platinum run wants them: story first (grabbing partner and one-off moments before the finale), then stranger strands, activities and crime, and finally the collectible sweep into 100%. Anything flagged <span class="badge badge-missable">Missable</span> should be finished inside its phase.</p>
+    <div id="roadmapList"></div>
   </section>
 </main>
 
 <footer>
-  <p>Leonida Trophy Guide &amp; Tracker — a fan-made offline guide. Not affiliated with Rockstar Games or PlayStation. Trophy data: official GTA VI trophy list (PlayStation trophy data, 2026-11-18).</p>
+  <p>Leonida Trophy Guide &amp; Tracker — an unofficial fan guide. Trophy names, descriptions and grades are the official GTA VI trophy list (2026-11-18); guidance is written for this guide and cites its sources per trophy. Not affiliated with Rockstar Games or Take-Two Interactive.</p>
 </footer>
 
-<script type="module" src="app.js"></script>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="app.js"></script>
 </body>
 </html>
