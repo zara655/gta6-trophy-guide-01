@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide &amp; Tracker — GTA VI</title>
+<meta name="description" content="Offline GTA VI trophy guide and tracker: all 55 official trophies, a roadmap to the platinum, missable flags, filters and a spoiler mode.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <p class="kicker">Grand Theft Auto VI · PlayStation 5 · Leonida</p>
+    <h1>Leonida Trophy Guide <span class="amp">&amp;</span> Tracker</h1>
+    <p class="tagline">All 55 official trophies, a roadmap to the platinum, missables flagged — works fully offline, your ticks never leave this browser.</p>
+    <div class="overall">
+      <div class="overall-bar" role="progressbar" aria-label="Overall trophy progress" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" id="overall-bar">
+        <div class="overall-fill" id="overall-fill"></div>
+      </div>
+      <p class="overall-text"><strong id="overall-count">0 of 55</strong> earned <span id="overall-pct" class="muted">(0%)</span></p>
+    </div>
+    <div class="grade-progress" id="grade-progress" aria-label="Progress by grade"></div>
+  </div>
+</header>
+
+<main>
+  <section class="controls" aria-label="Tracker controls">
+    <div class="control-row">
+      <label class="search">Search
+        <input id="search" type="search" placeholder="Name or description…" autocomplete="off">
+      </label>
+      <label>Grade
+        <select id="f-grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label>Kind
+        <select id="f-kind">
+          <option value="all">All kinds</option>
+          <option value="story">Story</option>
+          <option value="side activity">Side activity</option>
+          <option value="collectible">Collectible</option>
+          <option value="challenge">Challenge</option>
+          <option value="online">Online</option>
+          <option value="misc">Misc</option>
+        </select>
+      </label>
+      <label>Status
+        <select id="f-status">
+          <option value="all">All</option>
+          <option value="earned">Earned</option>
+          <option value="missing">Missing</option>
+        </select>
+      </label>
+      <label class="toggle" title="Hide story trophy names and descriptions until you earn them">
+        <input id="spoiler" type="checkbox"> Spoiler mode
+      </label>
+    </div>
+    <div class="control-row">
+      <div class="view-switch" role="tablist" aria-label="View">
+        <button id="view-checklist" type="button" role="tab" aria-selected="true">Checklist</button>
+        <button id="view-roadmap" type="button" role="tab" aria-selected="false">Roadmap to platinum</button>
+      </div>
+      <span class="spacer"></span>
+      <button id="export" type="button">Export progress</button>
+      <label class="import-btn">Import progress
+        <input id="import" type="file" accept="application/json,.json" hidden>
+      </label>
+      <button id="reset" type="button" class="danger">Reset</button>
+    </div>
+    <p class="hint" id="filter-hint" aria-live="polite"></p>
+  </section>
+
+  <section id="checklist" aria-label="Trophy checklist"></section>
+  <section id="roadmap" aria-label="Roadmap to the platinum" hidden></section>
+
+  <section class="about">
+    <h2>How to use this guide</h2>
+    <ul>
+      <li><strong>Tick trophies off</strong> as you earn them — ticks are saved in this browser (localStorage) and survive reloads. Export a backup before clearing site data.</li>
+      <li><strong>Spoiler mode</strong> hides story trophy names and descriptions until you earn them, so you can track progress without seeing what's ahead.</li>
+      <li><strong>Missable flags</strong> mark trophies tied to a story beat, a stranger strand, or your partner's availability — the note on each one says when it can be missed.</li>
+      <li><strong>The roadmap</strong> orders everything into eight phases, from the story chapters to clean-up and the platinum.</li>
+      <li>Names, descriptions and grades are the <strong>official 55-trophy list</strong> (PlayStation trophy data, as listed 2026-11-18). Guidance is written for this guide; specific counts are as recorded in the trophy data and cited on each trophy.</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>Leonida Trophy Guide &amp; Tracker — a fan-made offline guide. Not affiliated with Rockstar Games or PlayStation. Trophy data: official GTA VI trophy list (PlayStation trophy data, 2026-11-18).</p>
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

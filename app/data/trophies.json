@@ -1,0 +1,827 @@
+{
+ "game": "Grand Theft Auto VI",
+ "platform": "PlayStation 5",
+ "list": "the official 55 trophies, 2026-11-18",
+ "phases": [
+  {
+   "id": "story-chapters",
+   "title": "Phase 1 — Story: the chapters",
+   "blurb": "Play the story. Chapter trophies unlock in order; the gold finale trophy (id 7) ends the story, so clear story-tied clean-up before it if you want one playthrough."
+  },
+  {
+   "id": "story-missions",
+   "title": "Phase 2 — Story: key missions",
+   "blurb": "Named story missions that carry their own trophies. They unlock as the story reaches them — tick them off as they pop."
+  },
+  {
+   "id": "strangers",
+   "title": "Phase 3 — Strangers & side strands",
+   "blurb": "Mission strands for strangers across Leonida. Strands can become unavailable as the story moves on, so finish these before the final mission."
+  },
+  {
+   "id": "activities",
+   "title": "Phase 4 — Activities & challenges",
+   "blurb": "Races, drone races, fishing, bowling, the shooting range, stunts and the challenge list. Mostly free-roam content you can grind any time."
+  },
+  {
+   "id": "partner-feats",
+   "title": "Phase 5 — Partner & free-roam feats",
+   "blurb": "Robberies, escapes and combat feats — several need your partner beside you in free roam, so do those while both partners are available."
+  },
+  {
+   "id": "collectibles",
+   "title": "Phase 6 — Collectibles & exploration",
+   "blurb": "Cards, meditation spots, vehicles and every named area of Leonida. Pure clean-up: sweep the map region by region."
+  },
+  {
+   "id": "economy-misc",
+   "title": "Phase 7 — Economy & miscellaneous",
+   "blurb": "Money goals (laundering, spending, garages) and the odd one-off moments scattered around the state."
+  },
+  {
+   "id": "cleanup",
+   "title": "Phase 8 — Clean-up & the platinum",
+   "blurb": "100% completion, then the platinum itself. If anything is left, the filters in this tracker will find it."
+  }
+ ],
+ "trophies": [
+  {
+   "id": 1,
+   "name": "Vice Got a Price!",
+   "description": "Congratulations! You're a Leonida Legend.",
+   "grade": "platinum",
+   "kind": "misc",
+   "phase": "cleanup",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Earn every other trophy in the game. This unlocks automatically once the other 54 are yours — use the filters in this tracker to hunt down the last stragglers.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Just Like Paradise",
+   "description": "Complete Gone Fishing.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-chapters",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the opening mission 'Gone Fishing'. It unlocks as the story begins; track it here as you start.",
+   "guidance": "Finish 'Gone Fishing', the opening mission. It plays out as the game's introduction, so follow the story prompts at the start and the trophy pops when the mission ends.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Paradise Lost",
+   "description": "Complete Chapter 1.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-chapters",
+   "missable": true,
+   "missableNote": "Story-gated: tied to Chapter 1 of the story. Earn it by playing the chapter through.",
+   "guidance": "Play through Chapter 1 of the story. The trophy pops when the chapter's final mission ends.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 4,
+   "name": "T**s Ass Drug Money",
+   "description": "Complete Chapter 2.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-chapters",
+   "missable": true,
+   "missableNote": "Story-gated: tied to Chapter 2 of the story. Earn it by playing the chapter through.",
+   "guidance": "Play through Chapter 2 of the story. The trophy pops when the chapter's final mission ends.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Vice City, Baby!",
+   "description": "Complete Chapter 3.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-chapters",
+   "missable": true,
+   "missableNote": "Story-gated: tied to Chapter 3 of the story. Earn it by playing the chapter through.",
+   "guidance": "Play through Chapter 3 of the story. The trophy pops when the chapter's final mission ends.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Top Of The World, Ma",
+   "description": "Complete Chapter 4.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-chapters",
+   "missable": true,
+   "missableNote": "Story-gated: tied to Chapter 4 of the story. Earn it by playing the chapter through.",
+   "guidance": "Play through Chapter 4 of the story. The trophy pops when the chapter's final mission ends.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 7,
+   "name": "You Gotta Know When to Get Off",
+   "description": "Complete the final mission.",
+   "grade": "gold",
+   "kind": "story",
+   "phase": "story-chapters",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the final mission. Once you finish the story, story-tied opportunities are gone — clear anything story-tied you care about before the finale.",
+   "guidance": "Complete the final story mission. This is the story's ending; if you want a single playthrough, wrap up story-tied clean-up before starting the finale.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Trust",
+   "description": "Complete Breakfast Run.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-missions",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the story mission 'Breakfast Run'. Complete it when the story offers it.",
+   "guidance": "Complete the story mission 'Breakfast Run' when it becomes available in the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Break the Bank",
+   "description": "Complete The Cartel Heist.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-missions",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the story mission 'The Cartel Heist'. Complete it when the story offers it.",
+   "guidance": "Complete the story mission 'The Cartel Heist' when it becomes available in the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 10,
+   "name": "Family Matters",
+   "description": "Complete Child's Play.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-missions",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the story mission 'Child's Play'. Complete it when the story offers it.",
+   "guidance": "Complete the story mission 'Child's Play' when it becomes available in the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 11,
+   "name": "DWNFALL",
+   "description": "Complete Headliners.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-missions",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the story mission 'Headliners'. Complete it when the story offers it.",
+   "guidance": "Complete the story mission 'Headliners' when it becomes available in the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 12,
+   "name": "Hi-Jacked",
+   "description": "Complete VCIA Takedown.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-missions",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the story mission 'VCIA Takedown'. Complete it when the story offers it.",
+   "guidance": "Complete the story mission 'VCIA Takedown' when it becomes available in the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Snow Storm",
+   "description": "Complete Operation Savage Glory.",
+   "grade": "bronze",
+   "kind": "story",
+   "phase": "story-missions",
+   "missable": true,
+   "missableNote": "Story-gated: tied to the story mission 'Operation Savage Glory'. Complete it when the story offers it.",
+   "guidance": "Complete the story mission 'Operation Savage Glory' when it becomes available in the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 14,
+   "name": "A Long Road",
+   "description": "Attain 100% Completion.",
+   "grade": "gold",
+   "kind": "challenge",
+   "phase": "cleanup",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Reach 100% completion. Watch the completion percentage in the game's stats: it means the story plus the side content the game counts — stranger strands, activities, collectibles and challenges. Best treated as the final clean-up goal after the story.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Cunning Stunts",
+   "description": "Complete 250 Stunts.",
+   "grade": "silver",
+   "kind": "challenge",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Complete 250 stunts. Work through the game's stunt jumps and tricks in free roam, and revisit any you fail. It's a long grind — chip away at it between other goals and tick it off here when the counter reaches 250.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Master of None",
+   "description": "Try each type of activity once.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Try each type of activity once (the trophy data counts 9 activity types). Sample every activity on the map at least once — you only need to start each type, not master it.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 17,
+   "name": "The Shootist",
+   "description": "Earn a gold medal in all Shooting Range challenges.",
+   "grade": "silver",
+   "kind": "challenge",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Earn a gold medal in all Shooting Range challenges (42 challenges per the trophy data). Visit the shooting range, learn how each challenge scores, and replay them until every one is gold.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 18,
+   "name": "Top Fun",
+   "description": "Win a Top Fun Drone Race at every location.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Win a Top Fun Drone Race at every location (14 locations per the trophy data). Find each drone race start point and win once at each location.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Earn Cash, Not Kudos",
+   "description": "Win 20 different races.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Win 20 different races. Enter races around Leonida and win 20 distinct events — winning the same race repeatedly does not add to the count.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 20,
+   "name": "Baited My Tackle",
+   "description": "Beat Cal in a fishing challenge.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Beat Cal in a fishing challenge. Find Cal's fishing challenge and out-fish him to win.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Stick Fiddler",
+   "description": "Complete an arcade game.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Complete an arcade game. Find an arcade cabinet and play one game through to its end.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Road to Rehabilitation",
+   "description": "Complete the final mission for Andy.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Tied to Andy's mission strand. Stranger strands can become unavailable as the story moves on — finish Andy's strand while he's still around, ideally before the final mission.",
+   "guidance": "Complete the final mission for Andy. Work through Andy's mission strand until his last job is done.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 23,
+   "name": "This Was No Boat Accident",
+   "description": "Complete the final mission for Kenton.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Tied to Kenton's mission strand. Stranger strands can become unavailable as the story moves on — finish Kenton's strand while he's still around, ideally before the final mission.",
+   "guidance": "Complete the final mission for Kenton by finishing his whole strand.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 24,
+   "name": "The Lone Rider",
+   "description": "Complete the final mission for Billy.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Tied to Billy's mission strand. Stranger strands can become unavailable as the story moves on — finish Billy's strand while he's still around, ideally before the final mission.",
+   "guidance": "Complete the final mission for Billy by finishing his whole strand.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Strangers & Freaks",
+   "description": "Complete 8 mission strands for strangers across the state of Leonida.",
+   "grade": "silver",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Stranger strands can become unavailable as the story moves on. Complete 8 strands before the final mission to be safe.",
+   "guidance": "Complete 8 mission strands for strangers across Leonida. Stranger missions appear as you explore; each strand is a short chain of missions for one stranger — finish 8 full strands.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 26,
+   "name": "Supply & Demand",
+   "description": "Complete the final mission for Randy.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Tied to Randy's mission strand. Stranger strands can become unavailable as the story moves on — finish Randy's strand while he's still around, ideally before the final mission.",
+   "guidance": "Complete the final mission for Randy by finishing his whole strand.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Spin On This!",
+   "description": "Complete the final mission for Tyrone.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Tied to Tyrone's mission strand. Stranger strands can become unavailable as the story moves on — finish Tyrone's strand while he's still around, ideally before the final mission.",
+   "guidance": "Complete the final mission for Tyrone by finishing his whole strand.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Positive Mental Attitude",
+   "description": "Meditate at every spot across Leonida.",
+   "grade": "bronze",
+   "kind": "collectible",
+   "phase": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Meditate at every meditation spot across Leonida (18 spots per the trophy data). Visit each spot and meditate once; tick them off as you travel.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Fair Game",
+   "description": "Hunt a unique animal for Bret.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "strangers",
+   "missable": true,
+   "missableNote": "Tied to Bret's hunting request. Take it on while Bret's strand is available, ideally before the final mission.",
+   "guidance": "Hunt a unique animal for Bret. Accept Bret's hunting request and track down the specific animal he asks for.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 30,
+   "name": "Don't Touch My Deck",
+   "description": "Complete 3 Collectible Card sets.",
+   "grade": "silver",
+   "kind": "collectible",
+   "phase": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Complete 3 Collectible Card sets. Collect cards until three full sets are complete, and check your collection screen to see which cards you're missing.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 31,
+   "name": "You WAiNKer!",
+   "description": "WAiNK It at 100 locations.",
+   "grade": "silver",
+   "kind": "collectible",
+   "phase": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "WAiNK It at 100 locations. Use the WAiNK It action at 100 different spots around the state.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 32,
+   "name": "One Last Thing",
+   "description": "Complete 50 Challenges.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Complete 50 Challenges. Work through the game's challenge list — 50 completions in total, in any order.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Hot Together",
+   "description": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": true,
+   "missableNote": "Needs your partner with you in free roam. Do it while both partners are available, ideally before the final mission.",
+   "guidance": "With your partner, build up a 4-star wanted level, then lose it and escape the heat together. In free roam: cause enough chaos to reach 4 stars, then break line of sight and stay hidden until the stars clear.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Retail Therapy",
+   "description": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": true,
+   "missableNote": "Needs your partner with you in free roam. Do it while both partners are available, ideally before the final mission.",
+   "guidance": "With your partner, rob 3 shops back-to-back without losing your wanted level. Hit three stores in a row while the heat is on, and don't let the wanted level drop between robberies.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Whip It Good",
+   "description": "Discover 100 vehicles.",
+   "grade": "bronze",
+   "kind": "collectible",
+   "phase": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Discover 100 vehicles. Get into or drive 100 different vehicles — vary what you steal and drive instead of repeating favourites.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Gunslinger",
+   "description": "Take down 5 enemies in a single use of Combat Focus.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Take down 5 enemies in a single use of Combat Focus. Save Combat Focus for a dense group of enemies and chain five takedowns before it ends.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Catch Me If You Can",
+   "description": "Make an unscheduled departure at VCIA.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Make an unscheduled departure at VCIA — find a way to leave the VCIA facility outside the normal route.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 38,
+   "name": "Challenging Tank",
+   "description": "Kinda hot in these Rhinos.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "The official description is a joke about Rhinos (tanks): 'Kinda hot in these Rhinos.' Get into a Rhino and deal with the heat it brings; if one isn't available in free roam, watch for a Rhino during story or side content.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Sneakthief",
+   "description": "Rob a jewelry store without being detected.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Rob a jewelry store without being detected. Go in quiet, take the loot, and leave without being seen or raising the alarm.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Maximum Withdrawal",
+   "description": "Rob 5 Bank Vaults and escape.",
+   "grade": "silver",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Rob 5 bank vaults and escape after each one. Plan your escape route before you start each vault job.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 41,
+   "name": "A Classic Blitz Play",
+   "description": "Rob an Armored Truck and escape.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Rob an armored truck and escape. Stop the truck, take the cash, and lose the wanted level.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 42,
+   "name": "The Goodtime State",
+   "description": "Explore all of Leonida.",
+   "grade": "bronze",
+   "kind": "collectible",
+   "phase": "collectibles",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Explore all of Leonida (52 areas per the trophy data). Visit every named area of the state at least once — the map fills in as you travel.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Pest Control",
+   "description": "Rob an Illegal Operation belonging to each gang.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Rob an illegal operation belonging to each gang (9 gangs per the trophy data). Find one operation per gang and rob it.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 44,
+   "name": "In The Beginning…",
+   "description": "Enjoy a cocktail with a view on Ocean Beach.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Enjoy a cocktail with a view on Ocean Beach. Head to Ocean Beach, order a cocktail somewhere with a view, and take in the scenery.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Capital Offense",
+   "description": "Smash your way out of a vehicle showroom in classic style.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Smash your way out of a vehicle showroom in classic style — drive a car straight out through the showroom front.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 46,
+   "name": "Let’s Go Bowling",
+   "description": "Follow-through at the Kolt & Associates' bowling alley.",
+   "grade": "bronze",
+   "kind": "side activity",
+   "phase": "activities",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Follow through at the Kolt & Associates bowling alley: play a game of bowling there.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 47,
+   "name": "Personal Best",
+   "description": "A partnership with mass appeal.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": true,
+   "missableNote": "The official description is cryptic ('A partnership with mass appeal'). It appears tied to a partnership moment — watch for it while playing with your partner.",
+   "guidance": "The official description only says 'A partnership with mass appeal.' It seems tied to a moment involving your partner; keep playing partner content and check community guides if it doesn't unlock naturally.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Actions Speak Louder",
+   "description": "Choices made (for better or worse).",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Choices made (for better or worse). The choices you make in missions and free roam add up (the trophy data notes PSN tracks a count toward 500) — just keep playing and making choices.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Bad Luck, I Guess",
+   "description": "Second time's the charm.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "'Second time's the charm': succeed at something on a second attempt. If an activity or challenge goes wrong the first time, retry it right away.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 50,
+   "name": "The Truth Is Out There",
+   "description": "What the hell just happened?",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "'What the hell just happened?' — witness something strange in the world. Explore off the beaten path; odd encounters tend to find you.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 51,
+   "name": "Ten Pin",
+   "description": "Bowl 'em over with a melee drive-by.",
+   "grade": "bronze",
+   "kind": "challenge",
+   "phase": "partner-feats",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Bowl 'em over with a melee drive-by: while driving, swing a melee weapon at someone as you pass and knock them down.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Dime on the Dollar",
+   "description": "Earn $250,000 laundering Marked Bills through your contacts.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Earn $250,000 laundering Marked Bills through your contacts. Run marked-bill laundering jobs for your contacts until the total reaches $250,000.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 53,
+   "name": "Treat Yo Self",
+   "description": "Spend $100,000 across all shops.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Spend $100,000 across all shops. Buy clothes, gear and upgrades as you play — the total is cumulative across every shop.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  },
+  {
+   "id": 54,
+   "name": "Little Boxes",
+   "description": "Purchase all garage properties.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Purchase all garage properties (8 garages per the trophy data). Buy every garage on the property market.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade.",
+    "Counts shown (e.g. number of challenges or locations) are as recorded in this guide's trophy data, derived from the official list."
+   ]
+  },
+  {
+   "id": 55,
+   "name": "On the Spot",
+   "description": "Register 10 vehicles to the Scooter Bros app.",
+   "grade": "bronze",
+   "kind": "misc",
+   "phase": "economy-misc",
+   "missable": false,
+   "missableNote": null,
+   "guidance": "Register 10 vehicles to the Scooter Bros app. Use the app on your in-game phone to register vehicles until you reach 10.",
+   "sources": [
+    "Official GTA VI trophy list (PlayStation trophy data, as listed 2026-11-18) — name, description and grade."
+   ]
+  }
+ ]
+}
